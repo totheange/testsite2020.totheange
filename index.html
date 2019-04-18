@@ -236,6 +236,12 @@
                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
               </div>
             </li>
+            
+            <select id="dopdown">
+               <option>Choose This</option>
+               <option>Choose This Instead</option>
+               <option>Choose This This</option>
+             </select>
 
             <!-- Nav Item - Messages -->
             <li class="nav-item dropdown no-arrow mx-1">
@@ -671,7 +677,7 @@
 <script>
 (function(apiKey){
     (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
-    v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
+    v=['initialize','identify','updateOptions','pageLoad', 'trackEvents'];for(w=0,x=v.length;w<x;++w)(function(m){
         o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
         y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
         z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
@@ -700,8 +706,30 @@
             }
           
         });
+  
+    pendo.track("SelectMenu, {
+              OptionChosen: dropDownMenu(), 
+          });
 
 })('148d6f87-9ec1-4ca6-6904-2bba6cf7fb71');
+</script>
+  
+  <script>
+  (function dropDownMenu() {
+    
+    // Change the CSS selector in the parenthesis to match your select menu
+    var selectMenu = document.getElementById('dropdown');
+    
+    var callback = function(e) {
+      var selectedOption = e.target.options[e.target.selectedIndex];
+      window.dataLayer.push({
+        event: 'selectionMade',
+        selectedElement: selectedOption
+      });
+    };
+    
+    selectMenu.addEventListener('change', callback, true);
+  })();
 </script>
                    
 </body>
