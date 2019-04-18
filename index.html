@@ -673,6 +673,25 @@
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
   
+  <!-- Track Event Stuff -->
+   <script>
+  (function dropDownMenu() {
+    
+    // Change the CSS selector in the parenthesis to match your select menu
+    var selectMenu = document.getElementById('dropdown');
+    
+    var callback = function(e) {
+      var selectedOption = e.target.options[e.target.selectedIndex];
+      window.dataLayer.push({
+        event: 'selectionMade',
+        selectedElement: selectedOption
+      });
+    };
+    
+    selectMenu.addEventListener('change', callback, true);
+  })();
+</script>
+  
   <!-- Pendo Scripts -->
 <script>
 (function(apiKey){
@@ -714,23 +733,7 @@
 })('148d6f87-9ec1-4ca6-6904-2bba6cf7fb71');
 </script>
   
-  <script>
-  (function dropDownMenu() {
-    
-    // Change the CSS selector in the parenthesis to match your select menu
-    var selectMenu = document.getElementById('dropdown');
-    
-    var callback = function(e) {
-      var selectedOption = e.target.options[e.target.selectedIndex];
-      window.dataLayer.push({
-        event: 'selectionMade',
-        selectedElement: selectedOption
-      });
-    };
-    
-    selectMenu.addEventListener('change', callback, true);
-  })();
-</script>
+ 
                    
 </body>
 
