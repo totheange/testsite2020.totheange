@@ -687,9 +687,7 @@
         selectedElement: selectedOption
       });
     };
-    pendo.track("SelectMenu", {
-              OptionChosen: dropDownMenu(), 
-          });
+  
   })();
   
     
@@ -728,7 +726,9 @@
             }
           
         });
-
+  pendo.track("SelectMenu", {
+              OptionChosen: dropDownMenu(), 
+          });
 })('148d6f87-9ec1-4ca6-6904-2bba6cf7fb71');
 </script>
   
