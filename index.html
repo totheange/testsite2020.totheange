@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - 
+  <title>SB Admin 2 -
   </title>
 
   <!-- Custom fonts for this template-->
@@ -237,12 +237,14 @@
                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
               </div>
             </li>
-            
+
             <select id="dopdown">
                <option>Choose This</option>
                <option>Choose This Instead</option>
                <option>Choose This This</option>
              </select>
+
+             <button>NOT ALWAYS HERE</button>
 
             <!-- Nav Item - Messages -->
             <li class="nav-item dropdown no-arrow mx-1">
@@ -673,14 +675,14 @@
   <!-- Page level custom scripts -->
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
-  
+
   <!-- Track Event Stuff -->
    <script>
    (function dropDownMenu() {
-    
+
     // Change the CSS selector in the parenthesis to match your select menu
     var selectMenu = document.getElementById('dropdown');
-    
+
     var callback = function(e) {
       var selectedOption = e.target.options[e.target.selectedIndex];
       window.dataLayer.push({
@@ -688,12 +690,12 @@
         selectedElement: selectedOption
       });
     };
-  
+
   })();
-  
-    
+
+
 </script>
-  
+
   <!-- Pendo Scripts -->
 <script>
 (function(apiKey){
@@ -714,7 +716,7 @@
             account: {
                 id:           'stoffer-account', // Highly recommended
                 username:     'toddstoffer'
-            }, 
+            },
            parentAccount: {
                 id:           'stoffer-parent-account',
                 name:         'name'
@@ -722,9 +724,9 @@
             }
         });
 
-})('148d6f87-9ec1-4ca6-6904-2bba6cf7fb71');
+})('5ba2118f-b462-47f9-66eb-e0eeddbf109d');
 </script>
-  
+
 <!--  <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
   analytics.load("VXrEPSlhnbVxODjBTfrk0sbdU29jLcNd");
@@ -733,7 +735,7 @@
   analytics.group('toddstoffer.github.io');
   }}();
 </script> -->
-                   
+
 </body>
 
 </html>
