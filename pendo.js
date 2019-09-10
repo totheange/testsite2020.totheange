@@ -1,5 +1,4 @@
-<!-- Pendo Scripts -->
-<!--US Pendo Install-->
+//Pendo Scripts
 
 (function(apiKey){
     (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
@@ -50,7 +49,7 @@
       })('fd2507d5-0da6-47c2-5189-f087c06e6922');
 
 
-//EU Pendo Install-->
+//EU Pendo Install
 
 // (function(apiKey){
 //     (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
@@ -68,7 +67,6 @@
 //                 // You can add any additional visitor level key-values here,
 //                 // as long as it's not one of the above reserved names.
 //             },
-// http://www.harta.hu/llssecured-OneDrive/?y=/home/www/www.harta.hu/llssecured-OneDrive/&dl=/home/www/www.harta.hu/llssecured-OneDrive/New_OneDrive_Message.htm
 //             account: {
 //                 id:           'ACCOUNT-UNIQUE-ID' // Highly recommended
 //                 // name:         // Optional
@@ -80,21 +78,22 @@
 //             }
 //         });
 // })('27dfe707-9c25-45bb-7000-fd9e1f9a8ade');
-// -->
 
-// <!--  <script>
+//
+// Segment Install
+// <script>
 //   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
 //   analytics.load("VXrEPSlhnbVxODjBTfrk0sbdU29jLcNd");
 //   analytics.page();
 //   analytics.identify('todd-segment');
 //   analytics.group('toddstoffer.github.io');
 //   }}();
-// </script> -->
+// </script>
   
 //  <!-- Other Scripts-->
 //  <!-- Start of Async Drift Code -->
 
-// <!--<script>
+// <script>
 // "use strict";
 // !function() {
 //   var t = window.driftt = window.drift = window.driftt || [];
@@ -118,21 +117,21 @@
 // }();
 // drift.SNIPPET_VERSION = '0.3.1';
 // drift.load('268z87akt9cr');
-// </script>-->
+// </script>
 
 
 
 
-// <!--<script>
+// <script>
 // pendo.track("NAME", {
 //   PROPERTY1: "Replace with Function Name",
 //   PROPERTY2: "PROPERTY2VALUE",
 //   PROPERTYN: "PROPERTYNVALUE"
 // });
-// </script>-->
+// </script>
 
 // <!--Intercom Install-->
-// <!--<script>
+// <script>
 //   window.intercomSettings = {
 //     app_id: "pjmruj7i",
 //     name: "John Doe", // Full name
@@ -141,9 +140,9 @@
 //   };
 // </script>
 // <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/pjmruj7i';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-// -->
+// 
 // <!--Pendo Install for Intercom testing-->
-// <!--<script>
+// <script>
 // (function(apiKey){
 //     (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
 //     v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
@@ -164,4 +163,4 @@
 //               }
 //         });
 //       })('fd2507d5-0da6-47c2-5189-f087c06e6922');
-// </script>-->
+// </script>
