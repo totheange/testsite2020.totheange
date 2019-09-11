@@ -10,6 +10,7 @@
         // Please use Strings, Numbers, or Bools for value types.
 //pendo.isReady(console.log("is ready"))
         pendo.initialize({
+            disablecookies: true,
             visitor: {
                 id:  'visitor-1',
                 emailid: 'visitor-1@pendo.io',   // Required if user is logged in
