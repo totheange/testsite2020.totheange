@@ -90,8 +90,10 @@ Segment Install
 </script>
 
 <script>
-  analytics.identify('jesse-segment');
-  analytics.group('Jesse-account-segment');
+analytics.identify('f4ca124298', {
+  name: 'Michael Bolton',
+  email: 'mbolton@initech.com'
+});
 </script>
   
 //  <!-- Other Scripts-->
