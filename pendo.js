@@ -12,7 +12,7 @@
         pendo.initialize({
             disablecookies: true,
             visitor: {
-                id:  'visitor-1',
+                id:  'visitor-2',
                 emailid: 'visitor-1@pendo.io',   // Required if user is logged in
                 TrialendDate: '2019-06-01 15:04:05',
                 wodifyDate:  '08/19/2015',
