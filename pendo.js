@@ -172,6 +172,6 @@
 // </script>
 
 //Native Zendesk Module
-<!-- Start of pendo Zendesk Widget script -->
-<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=f0fac6b4-cd6f-4dc4-a20e-3becb43e4c8a"> </script>
-<!-- End of pendo Zendesk Widget script -->
+//<!-- Start of pendo Zendesk Widget script -->
+//<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=f0fac6b4-cd6f-4dc4-a20e-3becb43e4c8a"> </script>
+//<!-- End of pendo Zendesk Widget script -->
