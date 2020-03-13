@@ -16,13 +16,9 @@
                 email: 'email@email.com',
                 name: 'my name',
                 emailid: 'visitor-1@pendo.io',   // Required if user is logged in
-                TrialendDate: '2019-06-01 15:04:05',
-                wodifyDate:  '08/19/2015',
-                wodifyDatewtime:  '08/19/2015 03:04pm',
-                Staff_Class: "Temp",
-                Staff: "Admin",
+                role: 'Admin',
                 language: 'de',
-                solarwindsdate:  "2017-03-08"
+                
                 //enabledIntegrationVisitors: ['microsoft', 'enforce_modules','blackberry_modules'],
                 //role: ["Guardian"]
                 // email:        // Optional
@@ -32,7 +28,6 @@
             },
             account: {
                 id: "pendo-new"     ,     // Highly recommended
-                enabledIntegrationAccelerators: ['microsoft', 'enforce_modules','blackberry_modules'],
                 accountfield:  '100',
                 boolean_flag: false
                 // name:         // Optional
