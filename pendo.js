@@ -12,12 +12,16 @@
         pendo.initialize({
             disablecookies: true,
             visitor: {
-                id:  'visitor-2',
+                id:  'drift-visitor',
                 email: 'email@email.com',
                 name: 'my name',
                 emailid: 'visitor-1@pendo.io',   // Required if user is logged in
                 role: 'Admin',
-                language: 'de',
+                
+                //drift info
+                
+                userId: 'drift-visitor',
+                
                 
                 //enabledIntegrationVisitors: ['microsoft', 'enforce_modules','blackberry_modules'],
                 //role: ["Guardian"]
@@ -27,7 +31,7 @@
                 // as long as it's not one of the above reserved names.
             },
             account: {
-                id: "pendo-new"     ,     // Highly recommended
+                id: "drift-account"     ,     // Highly recommended
                 accountfield:  '100',
                 boolean_flag: false
                 // name:         // Optional
