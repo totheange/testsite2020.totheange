@@ -12,7 +12,7 @@
         pendo.initialize({
             disablecookies: true,
             visitor: {
-                id:  'drift-visitor',
+                id:  'angela-jesse-test-site',
                 email: 'email@email.com',
                 name: 'my name',
                 emailid: 'visitor-1@pendo.io',   // Required if user is logged in
@@ -48,7 +48,7 @@
       	      // key-values here.
       	    //}
         });
-      })('fd2507d5-0da6-47c2-5189-f087c06e6922');
+      })('14c13183-f8b2-4cc9-6794-d0c979a4f01a');
 
 
 //EU Pendo Install
