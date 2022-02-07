@@ -10,7 +10,7 @@
         // Please use Strings, Numbers, or Bools for value types.
 //pendo.isReady(console.log("is ready"))
         pendo.initialize({
-            disablecookies: true,
+            //disablecookies: true,
             visitor: {
                 id:  'angela-jesse-test-site',
                 email: 'email@email.com',
@@ -48,7 +48,7 @@
       	      // key-values here.
       	    //}
         });
-      })('14c13183-f8b2-4cc9-6794-d0c979a4f01a');
+      })('9740cfed-3e94-4620-7134-82d8dfb4e66d');
 
 
 //EU Pendo Install
